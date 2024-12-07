@@ -1,0 +1,94 @@
+/* General */
+body {
+    background-color: #000; /* Fondo negro */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #80cbc4; /* Título en verde claro */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botones */
+.btn-custom {
+    background-color: #80cbc4;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #66b2a3;
+}
+
+/* Tabla */
+.table-custom {
+    background-color: #121212;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table-custom th, .table-custom td {
+    border: 1px solid #800000;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-custom th {
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+.table-custom tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #1a1a1a;
+    border: 1px solid #800000;
+    border-radius: 8px;
+    color: white;
+}
+
+.modal-header {
+    background-color: #800000;
+    color: white;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body label {
+    color: #80cbc4;
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    background-color: #121212;
+    color: white;
+    border: 1px solid #800000;
+}
+
+.btn-close {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.modal-footer .btn-custom {
+    background-color: #800000;
+    color: white;
+}
+
+.modal-footer .btn-custom:hover {
+    background-color: #b32424;
+}

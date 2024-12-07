@@ -1,0 +1,190 @@
+/* Estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: #800000; /* Rojo oscuro */
+    margin-top: 20px;
+}
+
+/* Enlace de agregar categoría */
+a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #5f0000; /* Hover color */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #333; /* Fondo oscuro para la tabla */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #444; /* Color de borde suave */
+}
+
+table th {
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #444; /* Fondo gris oscuro para filas pares */
+}
+
+table tr:hover {
+    background-color: #555; /* Fondo gris más claro para el hover */
+}
+
+/* Estilo para los enlaces de acción */
+/* Estilo para los enlaces de acción (botones) */
+a {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #5f0000; /* Verde claro */
+    color:#000000;  /* Color del texto en los botones */
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #66b3b3; /* Hover color */
+}
+
+a:active {
+    background-color: #4d9e9e; /* Active color */
+}
+
+/* Estilo para el modal */
+.swal2-popup {
+    background-color:#fff;
+    color: #333;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.swal2-title {
+    font-weight: bold;
+    color: #800000; /* Rojo oscuro */
+}
+
+.swal2-content {
+    color: #333; /* Texto negro */
+}
+
+.swal2-confirm {
+    background-color: #800000; /* Rojo oscuro */
+    border-color: #800000;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.swal2-cancel {
+    background-color: #80cbc4; /* Verde claro */
+    border-color: #80cbc4;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* Estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: #800000; /* Rojo oscuro */
+    margin-top: 20px;
+}
+
+/* Formulario de edición */
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #333; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para los campos del formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #444; /* Fondo oscuro */
+    color: #fff;
+    border: 2px solid #80cbc4; /* Borde verde claro */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #800000; /* Borde rojo oscuro al hacer foco */
+    outline: none;
+}
+
+/* Botón de actualización */
+button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #5f0000; /* Hover color */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #80cbc4; /* Verde claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #66b3b3; /* Hover color */
+}
+

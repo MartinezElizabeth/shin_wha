@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    background-color: #000; /* Negro */
+    color: #fff; /* Blanco */
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #333; /* Verde petróleo con transparencia */
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #80cbc4; /* Verde petróleo claro */
+}
+
+.nav-link {
+    color: #333;
+    font-size: 1rem;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #80cbc4; /* Verde petróleo claro */
+}
+
+/* Carrusel */
+.carousel-item img {
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene las proporciones */
+    object-fit: cover; /* Mantiene el ajuste visual */
+    max-height: 75vh; /* Límite de altura */
+    filter: brightness(80%); /* Oscurece un poco las imágenes */
+}
+
+/* Imágenes generales */
+img {
+    max-width: 100%; 
+    height: auto; 
+        display: block; 
+}
+
+/* Títulos de sección */
+.section-title {
+    color: #8B0000; /* Rojo vino */
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+    background-color: #000; 
+    color: white;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+}
+
+/* Compactar los márgenes */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Botones compactos */
+button,
+.navbar-toggler {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Efecto hover */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    border-bottom: 2px solid #80cbc4; 
+}
+/* Personaliza los botones cuando se pasa el cursor */
+.navbar .nav-link:hover, .navbar .btn:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Espaciado en los botones */
+.navbar .nav-item {
+    margin-right: 15px; 
+}
+
+/* Fondo de la barra de navegación */
+.navbar {
+    background-color: #333; 
+}

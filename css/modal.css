@@ -1,0 +1,36 @@
+/* Personalización del estilo del modal SweetAlert2 */
+.swal2-popup {
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.swal2-title {
+    font-weight: bold;
+    color: #800000; /* Color rojo oscuro */
+}
+
+.swal2-content {
+    color: #333; /* Color de texto negro */
+}
+
+.swal2-confirm {
+    background-color: #800000; /* Rojo oscuro para el botón de confirmación */
+    border-color: #800000;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.swal2-cancel {
+    background-color: #80cbc4; /* Color verde claro para el botón de cancelar */
+    border-color: #80cbc4;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.swal2-styled {
+    font-family: Arial, sans-serif;
+}

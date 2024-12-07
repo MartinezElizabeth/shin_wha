@@ -1,0 +1,189 @@
+/* Estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: #800000; /* Rojo oscuro */
+    margin-top: 20px;
+}
+
+/* Estilo para los enlaces de acción (botones) */
+a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #5f0000; /* Hover color */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #333; /* Fondo blanco para la tabla */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las celdas de la tabla */
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd; /* Borde gris claro */
+}
+
+table th {
+    background-color: #800000; /* Rojo oscuro */
+    color:white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #444; /* Fondo gris oscuro para filas pares */
+}
+
+table tr:hover {
+    background-color: #555; /* Fondo gris más claro para el hover */
+}
+
+/* Estilo para los botones de acción */
+a {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #5f0000; /* Verde claro */
+    color: #000000;  /* Color del texto en los botones */
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #66b3b3; /* Hover color */
+}
+
+a:active {
+    background-color: #4d9e9e; /* Active color */
+}
+
+/* Estilo para el formulario de edición */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #333; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para los campos del formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #444; /* Fondo oscuro */
+    color: #fff;
+    border: 2px solid #80cbc4; /* Borde verde claro */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #800000; /* Borde rojo oscuro al hacer foco */
+    outline: none;
+}
+
+/* Botón de actualización */
+button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #5f0000; /* Hover color */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #80cbc4; /* Verde claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #66b3b3; /* Hover color */
+}
+/* Estilo para el botón de Guardar (submit) */
+button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #5f0000; /* Hover color */
+}
+
+/* Estilo para el botón Cancelar */
+button.cancelar {
+    padding: 12px 20px;
+    background-color: #5f0000; /* Rojo oscuro */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Asegura que ocupe el mismo ancho */
+    margin-top: 10px;
+}
+
+button.cancelar:hover {
+    background-color: #5f0000; /* Hover color para el Cancelar */
+}
+.btn-reporte {
+    padding: 10px 15px;
+    background-color: #008CBA; /* Color azul */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.btn-reporte:hover {
+    background-color: #005f73; /* Hover color */
+}
